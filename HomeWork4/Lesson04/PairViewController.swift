@@ -59,6 +59,7 @@ class PairViewController: UIViewController, UITableViewDelegate, UITableViewData
             
             tableView.reloadData()
             nameTextField.resignFirstResponder()
+            print("sth!")
         }
     }
     
